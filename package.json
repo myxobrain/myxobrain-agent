@@ -1,0 +1,15 @@
+{
+  "name": "myxobrain-agent",
+  "version": "1.0.0",
+  "description": "MYXOBRAIN//TERM in your terminal: six minds modeled on real organisms trade the same 11 Robinhood Chain assets. League, folds, gates, the live forward test, and a one-command SHA-256 check of the published engine and data.",
+  "type": "module",
+  "bin": { "myxo": "bin/myxo.mjs", "myxobrain": "bin/myxo.mjs" },
+  "files": ["bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "homepage": "https://myxobrain.github.io/myxobrain/",
+  "repository": { "type": "git", "url": "git+https://github.com/myxobrain/myxobrain-agent.git" },
+  "bugs": { "url": "https://github.com/myxobrain/myxobrain-agent/issues" },
+  "keywords": ["myxobrain", "robinhood-chain", "connectome", "c-elegans", "slime-mold", "physarum", "swarm", "backtest", "walk-forward", "trading", "cli", "verify"],
+  "author": "MYXOBRAIN (https://myxobrain.github.io/myxobrain/)",
+  "license": "MIT"
+}
