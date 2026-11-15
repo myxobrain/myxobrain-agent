@@ -3,8 +3,8 @@
 // It only reads what the MYXOBRAIN site publishes: no keys, no wallet, no trading. `myxo verify` re-hashes the engine and raw data.
 import { createHash } from "node:crypto";
 
-const VERSION = "1.0.0";
-const SERVER = (process.env.MYXOBRAIN_URL || "https://myxobrain.github.io/myxobrain").replace(/\/$/, "");
+const VERSION = "1.0.1";
+const SERVER = (process.env.MYXOBRAIN_URL || "https://myxobrain.com/").replace(/\/$/, "");
 
 // ---------- output ----------
 const tty = (process.stdout.isTTY || !!process.env.FORCE_COLOR) && !process.env.NO_COLOR;
