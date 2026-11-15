@@ -130,8 +130,9 @@ async function minds() {
 }
 
 async function live() {
-  const lv = await get("live/live.json");
-  head(`${lv.id || "LIVE-001"} · forward test on data that didn't exist yet`);
+  const lv = await get("live/live.json").catch(() => null);
+  head(`${lv?.id || "LIVE-001"} · forward test on data that didn't exist yet`);
+  if (!lv) { out("  Not published on this site yet. The forward test fills in here once live/live.json is published."); return out(); }
   if (!lv.books || lv.waiting) { out(`  Registered ${lv.registeredAt?.slice(0, 16).replace("T", " ")} UTC, waiting for the first closed market bars.`); return out(); }
   out(`  registered ${dim(lv.registeredAt.slice(0, 16).replace("T", " ") + " UTC")} · ${lv.bars} market hours · updated ${ago(lv.updatedAt)}`);
   out();
