@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/myxobrain-agent"><img src="https://img.shields.io/npm/v/myxobrain-agent?color=FFB000&labelColor=070707&label=npm" alt="npm"></a>
   <a href="https://github.com/myxobrain/myxobrain-agent"><img src="https://img.shields.io/badge/github-myxobrain--agent-070707?logo=github" alt="GitHub"></a>
+  <a href="https://x.com/myxobrainrh"><img src="https://img.shields.io/badge/X-@myxobrainrh-070707?logo=x" alt="X"></a>
   <a href="https://myxobrain.com/"><img src="https://img.shields.io/badge/web-myxobrain.com-070707" alt="Website"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-555555" alt="MIT"></a>
 </p>
